@@ -70,22 +70,54 @@
 		93D102172552496E00A4CD17 /* GithubFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				93D102522554E96F00A4CD17 /* Support */,
+				93D102512554E91000A4CD17 /* Extensions */,
+				93D102502554E8DF00A4CD17 /* Custom Views */,
+				93D1024F2554E8A100A4CD17 /* Screens */,
+				93D102262552497100A4CD17 /* Info.plist */,
+			);
+			path = GithubFollowers;
+			sourceTree = "<group>";
+		};
+		93D1024F2554E8A100A4CD17 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				93D1022E25524A3E00A4CD17 /* SearchVC.swift */,
+				93D1023225524A6A00A4CD17 /* FavoritesListVC.swift */,
+				93D1023B255483BB00A4CD17 /* FollowerListVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		93D102502554E8DF00A4CD17 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				93D10235255339BF00A4CD17 /* GFButton.swift */,
+				93D1023825533DB000A4CD17 /* GFTextField.swift */,
+				93D1023E2554956C00A4CD17 /* GFTitleLabel.swift */,
+				93D102412554977D00A4CD17 /* GFBodyLabel.swift */,
+				93D102442554983600A4CD17 /* GFAlertVC.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		93D102512554E91000A4CD17 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				93D1024B2554A30C00A4CD17 /* UIViewController+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		93D102522554E96F00A4CD17 /* Support */ = {
+			isa = PBXGroup;
+			children = (
 				93D102182552496E00A4CD17 /* AppDelegate.swift */,
 				93D1021A2552496E00A4CD17 /* SceneDelegate.swift */,
 				93D102212552497100A4CD17 /* Assets.xcassets */,
 				93D102232552497100A4CD17 /* LaunchScreen.storyboard */,
-				93D102262552497100A4CD17 /* Info.plist */,
-				93D1022E25524A3E00A4CD17 /* SearchVC.swift */,
-				93D1023225524A6A00A4CD17 /* FavoritesListVC.swift */,
-				93D10235255339BF00A4CD17 /* GFButton.swift */,
-				93D1023825533DB000A4CD17 /* GFTextField.swift */,
-				93D1023B255483BB00A4CD17 /* FollowerListVC.swift */,
-				93D1023E2554956C00A4CD17 /* GFTitleLabel.swift */,
-				93D102412554977D00A4CD17 /* GFBodyLabel.swift */,
-				93D102442554983600A4CD17 /* GFAlertVC.swift */,
-				93D1024B2554A30C00A4CD17 /* UIViewController+Ext.swift */,
 			);
-			path = GithubFollowers;
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
