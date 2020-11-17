@@ -1,8 +1,8 @@
 //
-//  ErrorMessage.swift
+//  GFError.swift
 //  GithubFollowers
 //
-//  Created by Gustavo Tiecker on 06/11/20.
+//  Created by Gustavo Tiecker on 17/11/20.
 //
 
 import Foundation
